@@ -1,0 +1,15 @@
+.h{
+    font-family :Myriad Pro;
+    font-size : 20px;
+    font-weight : bold;
+    color : blue;
+}
+.card{
+    width: 300px;
+    background:white;
+box-shadow:0 50px 50px rgba(0,0,0,.1);
+box-shadow:5px 10px 8px 1px #8888;
+border-radius:20px;
+border:none;
+transition:8.9s;
+}

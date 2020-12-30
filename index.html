@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshworks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"> <br>
+        <center><h3 style="color:red">Assignment</h3></center><br>
+        <div class="row"><br>
+            <div class="col-md-4">
+                <center><br>
+                    <div class="card">
+                        <br><br> <div class='h'>Read</div>
+                        <form id="viewform"autocomplete="off">
+                            <input type="text"  class="form-control" placeholder="key" name="keys" id="keys"  style="margin-top:20px;width:270px;"  required />
+                            <div   style="margin-top:13px;width:270px;"  id="ViewResponse" class="text-center mb-3 text-danger"></div>
+                            <button type="submit" class="btn btn-primary"  name="view" id="view"  style="margin-top:13px">Submit</button><br>
+                        </form>
+                        <div id="viewtable" class="table-responsive"><br><br> </div>
+                    </div>
+                </center>
+            </div>
+            <div class="col-md-4">
+                <center>
+                    <div class="card">
+                        <br><br> <div class='h'>Create</div>
+                        <form id="addform"autocomplete="off">
+                            <input type="text"   class="form-control" placeholder="key" id="keyy"  style="margin-top:20px;width:270px;" required />
+                            <input type="text"  class="form-control" placeholder="value" id="valuee" style="margin-top:13px;width:270px;" required/>
+                            <div   style="margin-top:13px;width:270px;"  id="addResponse" class="text-center mb-3 text-danger"></div>
+                            <button type="submit" class="btn btn-primary"  name="add" id="add"  style="margin-top:13px">Submit</button><br><br><br>
+                        </form>
+                    </div>
+                </center>
+            </div>
+            <br><br><br>
+            <div class="col-md-4">
+                <center>
+                    <div class="card"><br>
+                        <br><br> <div class='h'>Remove</div>
+                        <form id="removeform"autocomplete="off">
+                            <input type="text"  class="form-control" placeholder="key" name="keypair" id="keypair"  style="margin-top:20px;width:270px;"  required />
+                            <div   style="margin-top:13px;width:270px;"  id="removeResponse" class="text-center mb-3 text-danger"></div>
+                            <button type="submit" class="btn btn-primary"  name="remove" id="remove"  style="margin-top:13px">Submit</button><br><br><br>
+                        </form>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="bootstrap/jquery.min.js"></script>
+    <script src="bootstrap/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="add.js"></script>
+    <script src="view.js"></script>
+    <script src="remove.js"></script>
+</body>
+</html>
